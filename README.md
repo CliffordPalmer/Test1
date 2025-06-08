@@ -20,6 +20,6 @@ javac src/CoinbaseTradingBot.java
 java -cp src CoinbaseTradingBot
 ```
 
-The `main` method uses a simple price target indicator for demonstration. It will attempt to place a market buy order when the price of `BTC-USD` is below `20,000`.
+The `main` method now demonstrates a more complex strategy using indicators such as EMA, RSI, MACD, Bollinger Bands and VWAP. A `MAX_BUDGET` environment variable can be used to cap how much USD is spent in total (defaults to `$0.5`).
 
 **DISCLAIMER:** This code is for educational purposes only. Trading cryptocurrency carries significant risk. You are solely responsible for any trades executed and must comply with applicable laws and the Coinbase API terms of service.
